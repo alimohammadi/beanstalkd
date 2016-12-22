@@ -7,4 +7,4 @@ RUN apt-get update  && \
     
 EXPOSE 11300
 
-CMD service beanstalkd start   
+CMD beanstalkd -p 11300   
